@@ -68,7 +68,6 @@ ul  {
  }
 
  .button-section {
-   
     text-align: center;
   }
   .button-section .button {
@@ -81,19 +80,12 @@ ul  {
     width: 96%;
     max-width: 1020px;
     margin: 0 auto;
+    content: " ";
+    display: table;
+    clear: both;
  }
  
- /* row clearing */
- .row:before,
- .row:after {
-     content: " ";
-     display: table;
- }
- .row:after {
-     clear: both;
- }
- 
- .column, .columns {
+.columns {
     position: relative;
     padding: 0 20px;
     min-height: 1px;
@@ -108,10 +100,7 @@ ul  {
  }
 
 
- 
- .bgrid {
-    float: left;
- }
+
 
  .colA {
     width: 100%;
@@ -145,7 +134,7 @@ body { background: #A8D0E6; }
   position: relative;
 }
 .section-intro h1 {
-  font-family: 'opensans-bold', sans-serif;
+  font-family: fSB, sans-serif;
   font-size: 3.6rem;
   color: #fff;
   line-height: 1.25;
@@ -191,11 +180,6 @@ body { background: #A8D0E6; }
     letter-spacing: -2px;
     margin: 0 auto 18px auto;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
- }
-
- header .banner-text h3 span,
- header .banner-text h3 a {
-    color: #fff;
  }
  
  #nav-wrap {
