@@ -1,0 +1,1 @@
+var prevScrollpos=window.pageYOffset;window.onscroll=function(){var e=window.pageYOffset;document.getElementById("nav").style.top=prevScrollpos>e?"0":"-50px",prevScrollpos=e};
