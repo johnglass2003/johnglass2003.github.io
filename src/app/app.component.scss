@@ -1,25 +1,6 @@
-@font-face {
-    font-family: fSB;
-    src: url(./Figtree/static/Figtree-SemiBold.ttf);
-}
 
-html, body, div
-{
-    margin: 0;
-    vertical-align: center;
-}
 
-nav,section, header {
-    display: block;
- }
 
-*,
-*:before,
-*:after {
-   -moz-box-sizing: border-box;
-   -webkit-box-sizing: border-box;
-   box-sizing: border-box;
-}
 
 
 html {
@@ -43,37 +24,6 @@ html {
  
  strong { font: 15px/30px fSB, sans-serif; }
 
-ul  {
-     margin-bottom: 24px; margin-top: 12px; 
-     list-style: none outside; 
-
-    }
- 
- .button,
- button {
-    font: 16px/30px fSB, sans-serif;
-    background: #24305E;
-    display: inline-block;
-     text-decoration: none;
-    color: #fff;
-     padding: 12px 20px;
-     margin-bottom: 18px;
-    cursor: pointer;
-    height: auto;
- 
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -khtml-border-radius: 3px;
-    border-radius: 3px;
- }
-
- .button-section {
-    text-align: center;
-  }
-  .button-section .button {
-   margin-left: 15px;
-    width: 250px;
-  }
 
 
  .row {
@@ -99,40 +49,19 @@ ul  {
     margin: 0 auto;
  }
 
-
-
-
- .colA {
-    width: 100%;
-    padding: 0 20px;
-    
- }
-
  .colB {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    padding: 0 20px;
- }
-  
- .colC {
-    width: 33.33333%;
-    padding: 0 20px; 
-    display: inline-block;
-   }
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 0 20px;
+}
+
 
 /* =============================== LAYOUT =============================== */
 
-body { background: #A8D0E6; }
 
-.intro-info img {
-  height: 12rem; 
-  width: 12rem; 
-  border:1px solid rgb(75, 107, 247); 
-  border-radius: 50%;
-  margin: 0.9rem 1rem 0 2rem; 
-  float: left;
-}
+
+
 .intro-info .lead{
   text-align: left; 
   padding-left: 13rem;
@@ -163,15 +92,6 @@ body { background: #A8D0E6; }
 
 
 
- header {
-    position: relative;
-    height: 800px;
-    min-height: 500px;
-    width: 100%;
-    background: #374785 no-repeat top center;
-    text-align: center;
-    overflow: hidden;
- }
 
  header:before {
     content: '';
@@ -209,10 +129,7 @@ body { background: #A8D0E6; }
   display: inline-block;
 }
 
-#nav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+
 
   .about-content {
     position: relative;
@@ -221,9 +138,7 @@ body { background: #A8D0E6; }
     margin-bottom: 3.6rem;
   }
   
-#resume .section-intro h1, h2 {
-    color: #4F4F4B;
-  }
+
   
   #resume {
      background: #B8B1C1;
@@ -288,17 +203,7 @@ body { background: #A8D0E6; }
 
 
 
- #contact {
-  background: #24305E;
-   padding-top: 12rem;
-   padding-bottom: 7.2rem;
- }
- #contact .section-intro h1 {
-   color: white;
- }
- #contact .section-intro h5 {
-   color: #ffa2a2;
- }
+
 
  
  .contact-info {
