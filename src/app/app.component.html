@@ -9,7 +9,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-   <link rel="stylesheet" href="C:\Users\johng\OneDrive\Documents\GitHub\John-Glass.github.io\johnglass2003\src\app\app.component.scss">
+   <link rel="stylesheet" href="app.component.scss">
 
 
 	<link rel="shortcut icon" href="C:\Users\johng\OneDrive\Documents\GitHub\John-Glass.github.io\johnglass2003\src\assets\ocKu7OUcxegAAAABJRU5ErkJggg==.png">
@@ -23,17 +23,10 @@
      gtag('config', 'G-LFSK6W596W');
    </script>
    <script src="assets/js/navscroll.js"></script>
+   <script src="assets/js/nav.js"></script>
 </head>
 <body>
-   <div id="nav" style="  font: 12px fSB, sans-serif; background-color: #FFF;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   text-align: center;
-   letter-spacing: 5px;
-   transition: top 0.3s;
-   z-index:100;
-   ">
+   <div id="nav">
       <a class="ss" href="#home">Home</a>
       <a class="ss" href="#about">About</a>
       <a class="ss" href="#resume">Resume</a>
@@ -65,8 +58,8 @@
             <h5>About</h5>
             <h1>Let me introduce myself.</h1>
             <div class="intro-info" style="margin-top: 4.2rem; margin-right: -100px; margin-left: -100px;">
-               <img style=" height: 12rem; width: 12rem; border:1px solid rgb(75, 107, 247); border-radius: 50%; margin: 0.9rem 1rem 0 2rem; float: left;" src="/assets/JGHeadShot.jpg" alt="Profile Picture">
-               <p class="lead" style="text-align: left; padding-left: 13rem;">I am a Computer Scientist and Electrical Engineer pursuing my Bachelor of Science degree at the University of Florida. I am a passionate person driven by a constant desire to learn and grow. My primary interests include software development, data science, machine learning and more! </p>
+               <img src="/assets/JGHeadShot.jpg" alt="Profile Picture">
+               <p class="lead">I am a Computer Scientist and Electrical Engineer pursuing my Bachelor of Science degree at the University of Florida. I am a passionate person driven by a constant desire to learn and grow. My primary interests include software development, data science, machine learning and more! </p>
             </div>            
          </div>         
       </div> 
@@ -140,6 +133,18 @@
                   <div class="exp-content">
                      <h4>Mitchell Glass LLC</h4>
                      <p> Created a Python program that processes over 10,000+ data entries weekly, optimizing performance by 15%.
+                     </p>
+                  </div>
+               </div> 
+               <div class="exp-block"> 
+                  <div class="exp-header">
+                     <h3>Spatial Audio Localization Research Assistant, Software Engineer</h3>
+                     <p>Oct 2022 - Present</p>
+                  </div>
+                  <div class="exp-content">
+                     <h4>U.F. Department of Computer and Information Science and Engineering Research</h4>
+                     <p> Developing a GUI in Java that sets up a server socket for receiving location data from a sound rendering program 
+                        running on a Raspberry PI in order to display the position of people in the room.
                      </p>
                   </div>
                </div> 
@@ -279,9 +284,9 @@
          <div class="columns main-col">
             <div class="row item">
                <div class="columns">
-                  <h3>Marjory Stoneman Douglas Coding Club</h3>
+                  <h3 style="font-size: 25px;">Marjory Stoneman Douglas Coding Club</h3>
                   <p class="info">Game Design Teacher<span> - </span> <em class="date">August 2019 - May 2020</em></p>
-                  <p>
+                  <p style="margin-left: 30px;">
                   Organized game development classes for 20+ students. <br>
                   Taught Python, JavaScript, and GML. <br>
                   Recruited students into members of my class. 
@@ -290,17 +295,40 @@
             </div>
             <div class="row item">
                <div class="columns">
-                  <h3>Chabad of Parkland</h3>
+                  <h3 style="font-size: 25px;">Chabad of Parkland</h3>
                   <p class="info">Hebrew Teacher<span> - </span> <em class="date">August 2016 - May 2020</em></p>
-                  <p>
+                  <p style="margin-left: 30px;">
                   Instructed over 25+ students in Hebrew Fundamentals with a passing rate of 98%. <br>
                   Facilitated daily functions throughout the educational program for 300+ students. <br>
                   </p>
                </div>
             </div>
+
+            <div class="row item">
+               <div class="columns">
+                  <h3 style="font-size: 25px;">My Hobbies and Interests:</h3>
+                  <li style="margin-left: 30px;">
+                     I love to Golf with my family and even used to compete!<br>
+                  </li>
+                     <li style="margin-left: 30px;">
+                     I love to play Jazz on the alto and tenor saxophone.<br>
+                        <div style="margin-left: 30px;">
+                        I have met Jazz Legends: Herbie Hancock, Wycliffe Gordon, and Paquito D'rivera when they played at my high school!<br>
+                        I have experience "gigging" at restaurants.
+                        </div>
+                     </li>
+                  <li style="margin-left: 30px;">
+                     I was in high school marching band for 3 years and helped my school win state championships twice!<br>
+                  </li>
+                  <li style="margin-left: 30px;">
+                     I also love to travel, cook, and play sports!<br>
+                  </li>
+               </div>
+            </div>
             
          </div>
       </div>   
+      <div style="padding-top: 90px;"></div>
    </section>
    <section id="contact">
       <div class="row section-intro">
