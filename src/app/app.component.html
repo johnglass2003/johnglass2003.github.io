@@ -43,17 +43,17 @@
             <h3> <span>Software Engineer</span> | <span>Data Analyst</span> | <span>Full Stack Developer</span></h3>
             <hr />
             <ul class="social" style="display: inline-block;">
-               <a href="https://github.com/johnglass2003"><i class="fa fa-github"><img src="\assets\GitHub-Mark-Light-64px.png"></i></a>
-               <a href="https://www.linkedin.com/in/john-g-6860931a6/"><i class="fa fa-linkedin" style="margin-left: 40px;"><img src="\assets\in.png"></i></a>
-               <a href="mailto:johnglass0904@gmail.com"><i class="fa fa-envelope" style="margin-left: 40px;"><img src="\assets\email.png"></i></a>
+               <a href="https://github.com/johnglass2003"><i class="fa fa-github" style="animation: fadeIn3 2s;"><img src="\assets\GitHub-Mark-Light-64px.png"></i></a>
+               <a href="https://www.linkedin.com/in/john-g-6860931a6/"><i class="fa fa-linkedin" style="margin-left: 40px; animation: fadeIn4 3s;"><img src="\assets\in.png"></i></a>
+               <a href="mailto:johnglass0904@gmail.com"><i class="fa fa-envelope" style="margin-left: 40px; animation: fadeIn5 4s;"><img src="\assets\email.png"></i></a>
             </ul>
             <p class="ss" style="margin-left: 40px;">
-               <a class="ss" href="#about" style="text-align: center; animation: fadeIn2 3s;"><i class="icon-down-circle"></i></a>
+               <a class="ss" href="#about" style="text-align: center; animation: fadeIn2 5s;"><i class="icon-down-circle"></i></a>
             </p>
          </div>
-      </div>
+</div>
    </header>
-   <section id="about" style="padding-top: 7rem;padding-bottom: 8rem;">  
+   <section id="about" style="padding-top: 7rem;padding-bottom: 8rem; height: 100vh;  background: #a1b9c5; ">  
       <div class="row section-intro" style="margin-bottom: 3rem;">
          <div class="colA">
             <h5>About</h5>
@@ -145,7 +145,7 @@
    <section id="resume">
       <div class="row section-intro">
          <div class="colA">
-            <h5>Resume</h5>
+            <h5 style="color: #6a6a67">Resume</h5>
             <h1>More of my credentials.</h1>
             <p class="lead">Here are my work experiences and education.</p>
          </div>  
@@ -225,7 +225,7 @@
    <section id="portfolio">
       <div class="row section-intro">
          <div class="colA">
-            <h5>Projects</h5>
+            <h5 style="color: #6a6a67">Projects</h5>
             <h1 style="color: #4F4F4B;">Check out my <a href="https://github.com/johnglass2003" target="_blank">GitHub</a>! </h1>
          </div>  
       </div>
@@ -363,7 +363,7 @@
       </div>
       </div>
    </section>
-   <section id="involvement">
+   <section id="involvement" style=" background: #a1b9c5; ">
       <div class="overlay" style="padding-top: 90px;"></div>
       <div class="row section-intro">
          <div class="colA">
@@ -447,8 +447,8 @@
       </div> 
    </section> 
    <footer>
-      <div class="row">
-         <div class="columns">
+      <div class="row" style="width:100%; background: #4F4F4B;">
+         <div class="columns" >
             <a>Created and Designed by John Glass</a>
          </div>
          <div id="go-top"><a class="ss" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
@@ -463,6 +463,21 @@
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
    <style>
+            @keyframes fadeIn5 {
+  0% { opacity: 0; }
+  83% { opacity: 0; }
+  100% { opacity: 1; }
+}
+            @keyframes fadeIn4 {
+  0% { opacity: 0; }
+  80% { opacity: 0; }
+  100% { opacity: 1; }
+}
+            @keyframes fadeIn3 {
+  0% { opacity: 0; }
+  75% { opacity: 0; }
+  100% { opacity: 1; }
+}
       @keyframes fadeIn2 {
   0% { opacity: 0; }
   70% { opacity: 0; }
@@ -485,7 +500,7 @@
     text-align: center;
     overflow: hidden;
  }
-body { background: #a1b9c5; }
+body { background: #4F4F4B; }
 
 .intro-info img {
   height: 12rem; 
@@ -540,19 +555,22 @@ nav,section, header {
 
     }
     #contact {
-  background: #24305E;
+  background: #6a6a67;
    padding-top: 12rem;
    padding-bottom: 7.2rem;
  }
  #contact .section-intro h1 {
-   color: #4F4F4B;
+   color: #fff;
  }
  #contact .section-intro h5 {
-   color: #ffa2a2;
+   color: #fff;
  }
  #resume .section-intro h1, h2 {
-    color: #4F4F4B;
+    color: #6a6a67;
   }
+  .contact-info h5 {
+   color: #fff;
+ }
   #nav a:hover {
   background-color: #ddd;
   color: black;
