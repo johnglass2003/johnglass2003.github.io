@@ -35,23 +35,23 @@
       <a class="ss" href="#involvement">Involvement</a>
       <a class="ss" href="#contact">Contact</a>
    </div>
-   <header id="home">
+   <header id="home" style="height: 100vh;">
 
       <div class="row banner" style="display: inline-block; vertical-align: middle; margin: 0 auto; width: 85%; padding-bottom: 30px; text-align: center;">
-         <div class="banner-text">
+         <div class="banner-text" style="animation: fadeIn1 3s;">
             <h1 class="responsive-headline">John Glass</h1>
             <h3> <span>Software Engineer</span> | <span>Data Analyst</span> | <span>Full Stack Developer</span></h3>
             <hr />
-            <ul class="social">
-               <li><a href="https://github.com/johnglass2003"><i class="fa fa-github"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/john-g-6860931a6/"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="mailto:johnglass0904@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <ul class="social" style="display: inline-block;">
+               <a href="https://github.com/johnglass2003"><i class="fa fa-github"><img src="\assets\GitHub-Mark-Light-64px.png"></i></a>
+               <a href="https://www.linkedin.com/in/john-g-6860931a6/"><i class="fa fa-linkedin" style="margin-left: 40px;"><img src="\assets\in.png"></i></a>
+               <a href="mailto:johnglass0904@gmail.com"><i class="fa fa-envelope" style="margin-left: 40px;"><img src="\assets\email.png"></i></a>
             </ul>
+            <p class="ss" style="margin-left: 40px;">
+               <a class="ss" href="#about" style="text-align: center; animation: fadeIn2 3s;"><i class="icon-down-circle"></i></a>
+            </p>
          </div>
       </div>
-      <p class="ss">
-         <a class="ss" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
    </header>
    <section id="about" style="padding-top: 7rem;padding-bottom: 8rem;">  
       <div class="row section-intro" style="margin-bottom: 3rem;">
@@ -108,7 +108,7 @@
       <div class="row button-section" style="text-align: center;">
          <div class="colA">
             <a href="#contact" title="Hire Me" class="button stroke ss" style="    font: 16px/30px fSB, sans-serif;
-            background: #24305E;
+            background: #303c69;
             display: inline-block;
              text-decoration: none;
             color: #fff;
@@ -124,7 +124,7 @@
             margin-left: 15px;
             width: 250px;">Hire Me</a>
             <a href="/assets/John-Glass.pdf" title="Download Resume" class="button button-primary" style="    font: 16px/30px fSB, sans-serif;
-            background: #24305E;
+            background: #303c69;
             display: inline-block;
              text-decoration: none;
             color: #fff;
@@ -226,7 +226,7 @@
       <div class="row section-intro">
          <div class="colA">
             <h5>Projects</h5>
-            <h1>Check out my <a href="https://github.com/johnglass2003" target="_blank">GitHub</a>! </h1>
+            <h1 style="color: #4F4F4B;">Check out my <a href="https://github.com/johnglass2003" target="_blank">GitHub</a>! </h1>
          </div>  
       </div>
 
@@ -244,7 +244,7 @@
                <div class="content">
                   <p>The Personal Game Development Project, GOOP, is a top-down rogue-like arena shooter with fast and exciting gameplay. Features include implementing saving/loading functionalities, menu user interfaces, and collision handling.</p>
                   <div class="button"><a style="font: 16px/30px fSB, sans-serif;
-                     background: #24305E;
+                     background: #303c69;
                      display: inline-block;
                       text-decoration: none;
                      color: #fff;
@@ -276,7 +276,7 @@
                <div class="content">
                   <p>This is a website that generates a new "doodle" every day that the user draws and completes. The user may download and upload their drawing to the website. This website is powered by React and Php!</p>
                   <div class="button"><a style="font: 16px/30px fSB, sans-serif;
-                     background: #24305E;
+                     background: #303c69;
                      display: inline-block;
                       text-decoration: none;
                      color: #fff;
@@ -310,7 +310,7 @@
                <div class="content">
                   <p>C++ Collaborative Project That Analyzes Data On Video Games Based On Many Categories. This program compares the efficiency of different sorting and search algorithms.</p>
                   <div class="button"><a style="font: 16px/30px fSB, sans-serif;
-                     background: #24305E;
+                     background: #303c69;
                      display: inline-block;
                       text-decoration: none;
                      color: #fff;
@@ -342,7 +342,7 @@
                <div class="content">
                   <p>Check out the source code I created for this website! It was built in AngularJS Framework and uses HTML, SCSS, and TypeScript.</p>
                   <div class="button"><a style="font: 16px/30px fSB, sans-serif;
-                     background: #24305E;
+                     background: #303c69;
                      display: inline-block;
                       text-decoration: none;
                      color: #fff;
@@ -463,17 +463,29 @@
    <script src="js/magnific-popup.js"></script>
    <script src="js/init.js"></script>
    <style>
-      
+      @keyframes fadeIn2 {
+  0% { opacity: 0; }
+  70% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn1 {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
  header {
     position: relative;
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #374785 no-repeat top center;
+    background: url("/assets/Oceanic.JPG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     text-align: center;
     overflow: hidden;
  }
-body { background: #A8D0E6; }
+body { background: #a1b9c5; }
 
 .intro-info img {
   height: 12rem; 
@@ -504,10 +516,17 @@ nav,section, header {
        .colA {
     width: 100%;
     padding: 0 20px;
-    
  }
 
-
+.icon-down-circle
+{
+   border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 15px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
   
  .colC {
     width: 33.33333%;
@@ -526,7 +545,7 @@ nav,section, header {
    padding-bottom: 7.2rem;
  }
  #contact .section-intro h1 {
-   color: white;
+   color: #4F4F4B;
  }
  #contact .section-intro h5 {
    color: #ffa2a2;
