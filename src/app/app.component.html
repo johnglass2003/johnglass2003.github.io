@@ -60,12 +60,13 @@
             <h1>Let me introduce myself.</h1>
             <div class="intro-info" style="margin-top: 4.2rem; margin-right: -100px; margin-left: -100px;">
                <img src="/assets/JGHeadShot.jpg" alt="Profile Picture">
-               <p class="lead">I am a Computer Scientist and Electrical Engineer pursuing my Bachelor of Science degree at the University of Florida. I am a passionate person driven by a constant desire to learn and grow. My primary interests include anything related to a computer, working out, and music! </p>
+               <p class="lead">I am a University Scholars Program Scholarship Recipient majoring in Computer Science and minoring in Electrical Engineer pursuing my Bachelor of Science degree at the University of Florida. I am a passionate person driven by a constant desire to learn and grow. My primary interests include anything related to a computer, working out, and music! </p>
             </div>            
          </div>         
       </div> 
       <div class="row about-content">
          <div class="colB tab-full">
+            <div class="toHide">
             <h3>Profile</h3>
             <p>I am a Software Engineer and part-time data analyst open to all oppurtunities. If I'm a good fit, please contant me via <a href="mailto:johnglass0904@gmail.com">johnglass0904@gmail.com</a>.</p>
 
@@ -80,13 +81,16 @@
                </li>
             </ul>
          </div>
+         </div>
          <div class="colB tab-full">
             <h3>Skills</h3>
             <p>I'm a driven teamworker equiped with a strong coding skill set. Below are highlights of my technical skills:</p>
-            
               <li>
                 <strong>C/C++</strong>
              </li>
+             <li>
+               <strong>Golang</strong>
+            </li>
              <li>
               <strong>Python</strong>
              </li>
@@ -103,7 +107,10 @@
             <strong>JavaScript</strong>
          </li>
          <li>
-            <strong>Angular, React, TypeScript, jQuery</strong>
+            <strong>TypeScript</strong>
+         </li>
+         <li>
+            <strong>Angular, React, ASP.NET, Node.js, RESTful APIs, Git, SQL, NoSQL, GORM</strong>
          </li>
 
               
@@ -162,13 +169,17 @@
             <div class="exp-wrap">
                 <div class="exp-block"> 
                   <div class="exp-header">
-                     <h3>Data Analyst</h3>
-                     <p>May 2021 - Present</p>
+                     <h3>Software Engineering Intern</h3>
+                     <p>May 2023 - Aug 2023</p>
                   </div>
                   <div class="exp-content">
-                     <h4>Mitchell Glass LLC</h4>
-                     <p> Created a Python program that processes over 10,000+ data entries weekly, optimizing performance by 15%.
+                     <h4>UKG (Ultimate Kronos Group)</h4>
+                     <p> Optimized a local testing environment's setup, backup, and restore by 30% by using bash shell scripts and migrating
+                        the database to a remote artifactory.                        
                      </p>
+                     <p>Aided in the development of customizable user dashboards by expanding the functionality of 3 ASP .NET Web APIs
+                        utilizing C# and JavaScript allowing several features of the website to be changed.
+                        </p>
                   </div>
                </div> 
                <div class="exp-block"> 
@@ -178,8 +189,33 @@
                   </div>
                   <div class="exp-content">
                      <h4>U.F. Department of Computer and Information Science and Engineering Research</h4>
-                     <p> Developing a GUI in Java that sets up a server socket for receiving location data from a sound rendering program 
-                        running on a Raspberry PI in order to display the position of people in the room.
+                     <p> The 3D Spatial Audio Localization Research Team could not properly utilize Marvelmind location data with their
+                        audio processing systems. Constructed a Python API for sending, receiving, and preforming calculations on the data
+                        and implemented it on a Python server I deployed to enable their 3D sound rendering technology.
+                     </p>
+                     <p>
+                        The team was struggling to visualize the location data and had no remote control over the internal operations of the
+                        system. Designed a GUI that displays the data and is configured to remotely control sound rendering operations using
+                        Paramiko to connect and communicate with the server.
+                     </p>
+                     <p>
+                        Co-authored a Research Paper that is being published to a professional journal and qualified for a scholarship.
+                     </p>
+                  </div>
+               </div> 
+               <div class="exp-block"> 
+                  <div class="exp-header">
+                     <h3>Software Engineer</h3>
+                     <p>May 2021 - May 2023</p>
+                  </div>
+                  <div class="exp-content">
+                     <h4>Mitchell Glass LLC</h4>
+                     <p> Developed a Python application to process commission data entries from insurance provider CRM databases for 17
+                        insurance call centers.
+                     </p>
+                     <p>
+                        Optimized data validation and report creation processes for 10000+ entries weekly, based on legacy Excel
+                        framework, to improve performance by 25%.
                      </p>
                   </div>
                </div> 
@@ -219,6 +255,7 @@
                   <div class="exp-content">
                      <h4>University of Florida</h4>
                      <p>Pursuing my Bachelor of Science degree majoring in Computer Science and minoring in Electrical Engineering. I am a member of Upsilon Pi Epsilon, Univeristy of Florida Association for Computer Machinery, and Society of Software Developers. Relevant Coursework includes: Data Structures and Algorithms, Programming Fundamentals II, Programming Language Concepts, and Introduction to Discrete Structures.</p>
+                     <a href="https://cur.aa.ufl.edu/university-scholars-program/">University Scholars Program Scholarship Recipient</a>
                   </div>
                </div> 
             </div>          
@@ -235,6 +272,38 @@
       </div>
 
       <div class="container">
+         <div class="card">
+            <div class="inner">
+            <div class="face-face1">
+               <div class="content">
+                  <img src="/assets/cache.png">
+                  <h3>CacheSimulator</h3>
+                  <p>Simulator for Cache Performance</p>
+               </div>
+            </div>
+            <div class="face-face2">
+               <div class="content">
+                  <p>This Project allows the user to simulate caches based on different data structures to measure preformance. The simulator will produce plots for Hit Rate vs Cache Size, Total Access Time vs Cache Size, and Miss Rate vs Associativity.</p>
+                  <div class="button"><a style="font: 16px/30px fSB, sans-serif;
+                     background: #303c69;
+                     display: inline-block;
+                      text-decoration: none;
+                     color: #fff;
+                      padding: 12px 20px;
+                      margin-bottom: 18px;
+                     cursor: pointer;
+                     height: auto;
+                  
+                     -moz-border-radius: 3px;
+                     -webkit-border-radius: 3px;
+                     -khtml-border-radius: 3px;
+                     border-radius: 3px;
+                     margin-left: 15px;
+                      width: 250px;" href="https://github.com/johnglass2003/GOOPDemo" target="_blank">Check Me Out on GitHub!</a></div>
+               </div>
+            </div>
+         </div>
+         </div>
          <div class="card">
             <div class="inner">
             <div class="face-face1">
@@ -337,6 +406,38 @@
             <div class="inner">
             <div class="face-face1">
                <div class="content">
+                  <img src="/assets/bracket.png">
+                  <h3>Bracket App</h3>
+                  <p>Web App For Creating and Managing Tournament Brackets</p>
+               </div>
+            </div>
+            <div class="face-face2">
+               <div class="content">
+                  <p>This collaborative Web App allows the user to create custom brackets to keep track of tournament placings!</p>
+                  <div class="button"><a style="font: 16px/30px fSB, sans-serif;
+                     background: #303c69;
+                     display: inline-block;
+                      text-decoration: none;
+                     color: #fff;
+                      padding: 12px 20px;
+                      margin-bottom: 18px;
+                     cursor: pointer;
+                     height: auto;
+                  
+                     -moz-border-radius: 3px;
+                     -webkit-border-radius: 3px;
+                     -khtml-border-radius: 3px;
+                     border-radius: 3px;
+                     margin-left: 15px;
+                      width: 250px;" href="https://github.com/shawnbanks1/CEN4721-Bracket-Project" target="_blank">Check Me Out on GitHub!</a></div>
+               </div>
+            </div>
+         </div>
+         </div>
+         <div class="card">
+            <div class="inner">
+            <div class="face-face1">
+               <div class="content">
                   <img src="/assets/GoopClear.png">
                   <h3>johnglass2003.github.io</h3>
                   <p>AgnularJS Personal Website</p>
@@ -380,11 +481,10 @@
             <div class="row item">
                <div class="columns">
                   <h3 style="font-size: 25px;">Association for Computing Machinery, University of Florida</h3>
-                  <p class="info">Mentorship Program<span> - </span> <em class="date">Oct 2022 - Present</em></p>
+                  <p class="info">Mentor<span> - </span> <em class="date">Feb 2023 - Present</em></p>
                   <p style="margin-left: 30px;">
-                  Mentorship meetings discussing career plans and technical skills.<br>
-                  Building Full Stack development abilities for industry use.<br>
-                  Engaging in professional development workshops to enhance networking and interpersonal skills.
+                     Connected with two mentees to offer professional and technical development advice<br>
+                     Engaged in professional development workshops to enhance networking and interpersonal skills.
                   </p>
                </div>
             </div>
